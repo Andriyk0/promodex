@@ -1,0 +1,745 @@
+.technology {
+  width: 1728px;
+  height: 1451px;
+  position: relative;
+  padding: 182px 229px 132px;
+  margin: 0 auto;
+
+  @include onDesctop {
+    width: 1280px;
+    padding: 182px 100px 132px;
+  }
+
+  @include onTablet {
+    width: 768px;
+    height: 740px;
+    padding: 50px;
+  }
+
+  @include onPhone {
+    padding: 20px;
+    width: 375px;
+  }
+
+  &__text {
+    width: 631px;
+    font-family: "TTFirsNeue500", sans-serif;
+    font-size: 44px;
+    line-height: 57px;
+    color: #000;
+    margin-bottom: 514px;
+
+    @include onTablet {
+      font-size: 22px;
+      line-height: 30px;
+      width: 315px;
+      margin-bottom: 240px;
+    }
+
+    @include onPhone {
+      font-size: 17px;
+    }
+  }
+
+  &__text_midle {
+    width: 640px;
+    font-family: "TTFirsNeue400", sans-serif;
+    font-size: 24px;
+    line-height: 160%;
+    color: #000;
+    margin-left: 631px;
+    margin-bottom: 132px;
+
+    @include onDesctop {
+      margin-left: 440px;
+    }
+
+    @include onTablet {
+      margin-left: 390px;
+      font-size: 16px;
+      width: 300px;
+      line-height: 30px;
+      margin-bottom: 50px;
+    }
+
+    @include onPhone {
+      margin-left: 20px;
+      margin-bottom: 30px;
+    }
+  }
+
+  &__hr {
+    width: 100%;
+    border: 1px solid #e3e3e3;
+    margin-bottom: 80px;
+
+    @include onTablet {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__text_bottom {
+    font-family: "TTFirsNeue500", sans-serif;
+    font-size: 40px;
+    line-height: 52px;
+    color: #000;
+    margin-bottom: 42px;
+
+    @include onTablet {
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+
+    @include onPhone {
+      font-size: 16px;
+      line-height: 23px;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__container {
+    width: 100%;
+    height: 116px;
+    display: flex;
+    justify-content: space-between;
+
+    @include onPhone {
+      flex-wrap: wrap;
+    }
+  }
+
+  &__card {
+    height: 100%;
+    width: 180px;
+    text-align: center;
+
+    @include onTablet {
+      width: 100px;
+    }
+  }
+
+  &__card_top_box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+
+  &__card_top_little_box {
+    text-align: center;
+  }
+
+  &__card_top_text {
+    font-family: "TTFirsNeue500", sans-serif;
+    font-size: 26px;
+    line-height: 34px;
+    color: #000;
+
+    @include onTablet {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+
+  &__card_top_text2 {
+    font-family: "TTFirsNeue400", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    color: #000;
+
+    @include onTablet {
+      font-size: 8px;
+    }
+  }
+
+  &__card_bottom_text {
+    font-family: "TTFirsNeue400", sans-serif;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000;
+
+    @include onTablet {
+      font-size: 8px;
+    }
+  }
+
+  &__css_box {
+    position: absolute;
+    top: 560px;
+    left: 413px;
+    width: 167px;
+    height: 167px;
+    border-radius: 50%;
+    border: 1.3px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include onDesctop {
+      width: 130px;
+      height: 130px;
+      left: 230px;
+    }
+
+    @include onTablet {
+      width: 75px;
+      height: 75px;
+      left: 150px;
+      top: 255px;
+    }
+
+    @include onPhone {
+      width: 45px;
+      height: 45px;
+      top: 82px;
+      left: 73px;
+    }
+  }
+
+  &__css {
+    @include onTablet {
+      width: 60%;
+      height: 60%;
+    }
+  }
+
+  &__gulp_box {
+    position: absolute;
+    top: 414px;
+    left: 1332px;
+    width: 167px;
+    height: 167px;
+    border-radius: 50%;
+    border: 1.3px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include onDesctop {
+      width: 130px;
+      height: 130px;
+      left: 1047px;
+    }
+
+    @include onTablet {
+      width: 80px;
+      height: 80px;
+      left: 655px;
+      top: 209px;
+    }
+
+    @include onPhone {
+      left: 244px;
+      top: 107px;
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  &__gulp {
+    @include onTablet {
+      width: 60%;
+      height: 60%;
+    }
+  }
+
+  &__html_box {
+    position: absolute;
+    top: 478px;
+    left: 229px;
+    width: 167px;
+    height: 167px;
+    border-radius: 50%;
+    border: 1.3px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include onDesctop {
+      width: 130px;
+      height: 130px;
+      left: 100px;
+    }
+
+    @include onTablet {
+      width: 70px;
+      height: 70px;
+      left: 50px;
+      top: 210px;
+    }
+
+    @include onPhone {
+      width: 40px;
+      height: 40px;
+      top: 110px;
+      left: 20px;
+    }
+  }
+
+  &__html {
+    @include onTablet {
+      width: 60%;
+      height: 60%;
+    }
+  }
+
+  &__jquery_box {
+    position: absolute;
+    top: 486px;
+    left: 964px;
+    width: 167px;
+    height: 167px;
+    border-radius: 50%;
+    border: 1.3px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include onDesctop {
+      width: 140px;
+      height: 140px;
+      left: 767px;
+    }
+
+    @include onTablet {
+      width: 90px;
+      height: 90px;
+      left: 460px;
+      top: 241px;
+    }
+
+    @include onPhone {
+      width: 45px;
+      height: 45px;
+      left: 216px;
+      top: 203px;
+    }
+  }
+
+  &__jquery {
+    width: 60%;
+    height: 60%;
+  }
+
+  &__js_box {
+    position: absolute;
+    top: 345px;
+    left: 1148px;
+    width: 167px;
+    height: 167px;
+    border-radius: 50%;
+    border: 1.3px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include onDesctop {
+      width: 140px;
+      height: 140px;
+      left: 877px;
+    }
+
+    @include onTablet {
+      width: 75px;
+      height: 75px;
+      left: 561px;
+      top: 184px;
+    }
+
+    @include onPhone {
+      left: 276px;
+      top: 221px;
+    }
+  }
+
+  &__js {
+    width: 60%;
+    height: 60%;
+  }
+
+  &__laravel_box {
+    position: absolute;
+    top: 292px;
+    left: 964px;
+    width: 167px;
+    height: 167px;
+    border-radius: 50%;
+    border: 1.3px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include onDesctop {
+      width: 140px;
+      height: 140px;
+      left: 710px;
+    }
+
+    @include onTablet {
+      width: 90px;
+      height: 90px;
+      top: 129px;
+      left: 464px;
+    }
+
+    @include onPhone {
+      width: 60px;
+      height: 60px;
+      left: 174px;
+      top: 140px;
+    }
+  }
+
+  &__laravel {
+    width: 60%;
+    height: 60%;
+  }
+
+  &__mysql_box {
+    position: absolute;
+    top: 768px;
+    left: 383px;
+    width: 227px;
+    height: 227px;
+    border-radius: 50%;
+    border: 1.3px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include onDesctop {
+      width: 200px;
+      height: 200px;
+      left: 255px;
+    }
+
+    @include onTablet {
+      width: 120px;
+      height: 120px;
+      left: 128px;
+      top: 351px;
+    }
+
+    @include onPhone {
+      width: 70px;
+      height: 70px;
+      top: 232px;
+      left: 56px;
+    }
+  }
+
+  &__mysql {
+    @include onTablet {
+      width: 60%;
+      height: 60%;
+    }
+  }
+
+  &__opencart_box {
+    position: absolute;
+    top: 123px;
+    left: 1254px;
+    width: 243px;
+    height: 243px;
+    border-radius: 50%;
+    border: 1.3px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include onDesctop {
+      width: 200px;
+      height: 200px;
+      left: 980px;
+    }
+
+    @include onTablet {
+      width: 100px;
+      height: 100px;
+      left: 625px;
+      top: 78px;
+    }
+
+    @include onPhone {
+      width: 60px;
+      height: 60px;
+      left: 295px;
+      top: 100px;
+    }
+  }
+
+  &__opencart {
+    @include onTablet {
+      width: 60%;
+      height: 60%;
+    }
+  }
+
+  &__php_box {
+    position: absolute;
+    top: 679px;
+    left: 600px;
+    width: 129px;
+    height: 129px;
+    border-radius: 50%;
+    border: 1.3px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include onDesctop {
+      width: 100px;
+      height: 100px;
+      left: 448px;
+    }
+
+    @include onTablet {
+      width: 50px;
+      height: 50px;
+      top: 309px;
+      left: 243px;
+    }
+
+    @include onPhone {
+      left: 127px;
+      top: 187px;
+    }
+  }
+
+  &__php {
+    @include onTablet {
+      width: 60%;
+      height: 60%;
+    }
+  }
+
+  &__react_box {
+    position: absolute;
+    top: 407px;
+    left: 780px;
+    width: 167px;
+    height: 167px;
+    border-radius: 50%;
+    border: 1.3px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include onDesctop {
+      width: 140px;
+      height: 140px;
+      left: 555px;
+    }
+
+    @include onTablet {
+      width: 80px;
+      height: 80px;
+      left: 350px;
+      top: 168px;
+    }
+
+    @include onPhone {
+      width: 40px;
+      height: 40px;
+      top: 100px;
+      left: 135px;
+    }
+  }
+
+  &__react {
+    width: 60%;
+    height: 60%;
+  }
+
+  &__sass_box {
+    position: absolute;
+    top: 558px;
+    left: 1169px;
+    width: 137px;
+    height: 137px;
+    border-radius: 50%;
+    border: 1.3px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include onDesctop {
+      width: 120px;
+      height: 120px;
+      left: 915px;
+    }
+
+    @include onTablet {
+      width: 60px;
+      height: 60px;
+      top: 265px;
+      left: 573px;
+    }
+
+    @include onPhone {
+      left: 255px;
+      top: 159px;
+    }
+  }
+
+  &__sass {
+    @include onTablet {
+      width: 60%;
+      height: 60%;
+    }
+  }
+
+  &__uxui_box {
+    position: absolute;
+    top: 120px;
+    left: 1068px;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 1.3px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include onDesctop {
+      width: 140px;
+      height: 140px;
+      left: 775px;
+    }
+
+    @include onTablet {
+      width: 90px;
+      height: 90px;
+      top: 27px;
+      left: 526px;
+    }
+
+    @include onPhone {
+      width: 45px;
+      height: 45px;
+      left: 186px;
+      top: 87px;
+    }
+  }
+
+  &__uxui {
+    width: 60%;
+    height: 60%;
+  }
+
+  &__vite_box {
+    position: absolute;
+    top: 478px;
+    left: 597px;
+    width: 167px;
+    height: 167px;
+    border-radius: 50%;
+    border: 1.3px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include onDesctop {
+      width: 130px;
+      height: 130px;
+      left: 383px;
+    }
+
+    @include onTablet {
+      width: 70px;
+      height: 70px;
+      top: 200px;
+      left: 231px;
+    }
+
+    @include onPhone {
+      width: 40px;
+      height: 40px;
+      top: 150px;
+      left: 80px;
+    }
+  }
+
+  &__vite {
+    @include onTablet {
+      width: 60%;
+      height: 60%;
+    }
+  }
+
+  &__webpack_box {
+    position: absolute;
+    top: 662px;
+    left: 229px;
+    width: 167px;
+    height: 167px;
+    border-radius: 50%;
+    border: 1.3px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include onDesctop {
+      width: 130px;
+      height: 130px;
+      left: 100px;
+    }
+
+    @include onTablet {
+      width: 70px;
+      height: 70px;
+      left: 50px;
+      top: 300px;
+    }
+
+    @include onPhone {
+      width: 55px;
+      height: 55px;
+      top: 176px;
+      left: 20px;
+    }
+  }
+
+  &__webpack {
+    @include onTablet {
+      width: 60%;
+      height: 60%;
+    }
+  }
+
+  &__wordpress_box {
+    position: absolute;
+    top: 612px;
+    left: 780px;
+    width: 207px;
+    height: 207px;
+    border-radius: 50%;
+    border: 1.3px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include onDesctop {
+      left: 600px;
+    }
+
+    @include onTablet {
+      width: 90px;
+      height: 90px;
+      top: 277px;
+      left: 325px;
+    }
+
+    @include onPhone {
+      left: 150px;
+      top: 241px;
+      width: 70px;
+      height: 70px;
+    }
+  }
+
+  &__wordpress {
+    width: 60%;
+    height: 60%;
+  }
+}

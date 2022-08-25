@@ -1,0 +1,152 @@
+.footer {
+  width: 1728px;
+  height: 532px;
+  padding: 120px 229px 99px;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  background-color: #000;
+
+  @include onDesctop {
+    width: 100%;
+    padding: 120px 100px 99px;
+  }
+
+  @include onTablet {
+    height: 230px;
+    padding: 50px;
+  }
+
+  @include onPhone {
+    padding: 20px;
+  }
+
+  &__left_side {
+    width: 1042px;
+
+    @include onTablet {
+      width: 500px;
+    }
+  }
+
+  &__text {
+    font-family: "TTFirsNeue500", sans-serif;
+    font-size: 69px;
+    line-height: 89px;
+    color: #fff;
+
+    @include onTablet {
+      font-size: 35px;
+      line-height: 30px;
+    }
+
+    @include onPhone {
+      font-size: 20px;
+      line-height: 20px;
+    }
+  }
+
+  &__second_text {
+    font-family: "TTFirsNeue500", sans-serif;
+    font-size: 100px;
+    line-height: 129px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px;
+    color: #454649;
+    margin-top: -10px;
+    margin-bottom: 19px;
+
+    @include onTablet {
+      font-size: 47px;
+      line-height: 77px;
+    }
+
+    @include onPhone {
+      font-size: 25px;
+      line-height: 46px;
+    }
+  }
+
+  &__left_side_box {
+    display: flex;
+
+    @include onPhone {
+      flex-direction: column;
+    }
+  }
+
+  &__phone {
+    width: 211px;
+    height: 83px;
+    border: 1px solid #454649;
+    border-radius: 40px;
+    margin-right: 33px;
+    padding: 29px 39px;
+    font-family: "TTFirsNeue500", sans-serif;
+    font-size: 18px;
+    line-height: 140%;
+    color: #fff;
+
+    @include onTablet {
+      font-size: 11px;
+      padding: 10px;
+      height: 32px;
+      width: 102px;
+    }
+
+    @include onPhone {
+      margin-bottom: 10px;
+    }
+  }
+
+  &__email {
+    width: 283px;
+    height: 83px;
+    border: 1px solid #454649;
+    border-radius: 40px;
+    padding: 29px 39px;
+    font-family: "TTFirsNeue500", sans-serif;
+    font-size: 18px;
+    line-height: 140%;
+    color: #fff;
+
+    @include onTablet {
+      font-size: 14px;
+      padding: 10px;
+      height: 32px;
+      width: 180px;
+      line-height: 10px;
+    }
+  }
+
+  &__right_side {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  &__button {
+    width: 228px;
+    height: 228px;
+    border-radius: 50%;
+    border: none;
+    background-color: #fff;
+    font-family: "TTFirsNeue600", sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+
+    @include onTablet {
+      width: 110px;
+      height: 110px;
+      font-size: 12px;
+    }
+
+    @include onPhone {
+      width: 80px;
+      height: 80px;
+    }
+  }
+}

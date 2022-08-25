@@ -10,6 +10,6 @@ Implement landing page according to [Figma design](https://www.figma.com/proto/d
 - The design 1728px
 - Notebook 1280px
 - Tablet 768px
-- Mobile (> 320px)
+- Mobile (> 375px)
 
 
